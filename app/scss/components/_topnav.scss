@@ -21,9 +21,7 @@
   }
 
   &__logo {
-    display: block;
     width: u.rem(70);
-    height: auto;
 
     @include u.breakpoint(large) {
       width: u.rem(128);
@@ -49,7 +47,7 @@
     font-size: u.rem(14);
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: var(--text-white);
+    color: var(--text-light);
     text-transform: uppercase;
 
     @include u.breakpoint(large) {
